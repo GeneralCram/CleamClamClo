@@ -22,5 +22,15 @@ protected void paintComponent(Graphics g) {
 
 	g.setColor(Color.DARK_GRAY);
 	
+	//Der vertikale Strich
+	
+	g.drawLine(325, 25, 325, 525);
+	g.drawLine(475, 25, 475, 525);
+	
+	
+	//Der horizontale Strich
+	
+	g.drawLine(150, 200, 650, 200);
+	g.drawLine(150, 350, 650, 350);
 }
 	}
