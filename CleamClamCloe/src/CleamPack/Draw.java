@@ -7,12 +7,11 @@ import java.awt.RenderingHints;
 
 import javax.swing.JLabel;
 
-public class Draw extends JLabel { /*Warum hier extends und nicht bei JFrame?*/
+public class Draw extends JLabel {
 
-private static final long serialVersionUID =1L; /*Warum verlangt der das? Was ist das?*/
+private static final long serialVersionUID =1L; 
 protected void paintComponent(Graphics g) {
 
-	
 	
 	
 	/* Grafische Elemente für den Frame wie die Striche für die einzelnen Felder */
