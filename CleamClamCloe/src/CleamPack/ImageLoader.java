@@ -6,17 +6,15 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-
 public class ImageLoader {
-	
+
 	static Image imgX, imgO;
-	
-	
+
 	public ImageLoader() {
 		try {
 			imgX = ImageIO.read(new File("res/x.png"));
 			imgO = ImageIO.read(new File("res/o.png"));
-			//try and catch, falls das Bild nicht vorhanden ist
+			// try and catch, falls das Bild nicht vorhanden ist
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -1,9 +1,9 @@
 package CleamPack;
 
 public class Funktion {
-	
+
 	public static void reset() {
-		for(int i=0; i<GUI.state.length; i++) {
+		for (int i = 0; i < GUI.state.length; i++) {
 			GUI.state[i] = 0;
 		}
 		GUI.player = 0;
